@@ -8,6 +8,7 @@ import Parent from './components/ContainerSamples';
 import Page from './components/ContextSample';
 import reportWebVitals from './reportWebVitals';
 import Counter from './components/Counter';
+import CounterReducer from './components/CounterReducer';
 
 // ReactDOM.createRootにHTMLの設置先を設定し、rootオブジェクトを作成
 const root = ReactDOM.createRoot(
@@ -25,6 +26,7 @@ root.render(
     <Parent />
     <Page />
     <Counter initialValue={0} />
+    <CounterReducer initialValue={0} />
 
   </React.StrictMode>
 );
