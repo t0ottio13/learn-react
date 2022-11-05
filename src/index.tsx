@@ -5,6 +5,7 @@ import './index.css';
 import Hello from './components/Hello'
 import Message from './components/Message';
 import Parent from './components/ContainerSamples';
+import Page from './components/ContextSample';
 import reportWebVitals from './reportWebVitals';
 
 // ReactDOM.createRootにHTMLの設置先を設定し、rootオブジェクトを作成
@@ -21,6 +22,8 @@ root.render(
     <Hello />
     <Message />
     <Parent />
+    <Page />
+    
   </React.StrictMode>
 );
 
