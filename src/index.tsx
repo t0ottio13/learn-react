@@ -1,15 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
+import Hello from './components/Hello'
 import reportWebVitals from './reportWebVitals';
 
+// ReactDOM.createRootにHTMLの設置先を設定し、rootオブジェクトを作成
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
+  // 不適切なコードを検知するためのヘルパー
   <React.StrictMode>
-    <App />
+    {/* この中はJSX */}
+    {/* import App from './App'; <=してるから使える*/}
+    {/* <App />  */}
+
+    <Hello />
+
   </React.StrictMode>
 );
 
