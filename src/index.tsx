@@ -9,11 +9,13 @@ import Page from './components/ContextSample';
 import reportWebVitals from './reportWebVitals';
 import Counter from './components/Counter';
 import CounterReducer from './components/CounterReducer';
+import { ParentFizzBuzz } from './components/Parent';
 
 // ReactDOM.createRootにHTMLの設置先を設定し、rootオブジェクトを作成
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
 root.render(
   // 不適切なコードを検知するためのヘルパー
   <React.StrictMode>
@@ -27,6 +29,7 @@ root.render(
     <Page />
     <Counter initialValue={0} />
     <CounterReducer initialValue={0} />
+    <ParentFizzBuzz />
 
   </React.StrictMode>
 );
