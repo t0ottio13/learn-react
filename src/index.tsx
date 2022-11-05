@@ -7,6 +7,7 @@ import Message from './components/Message';
 import Parent from './components/ContainerSamples';
 import Page from './components/ContextSample';
 import reportWebVitals from './reportWebVitals';
+import Counter from './components/Counter';
 
 // ReactDOM.createRootにHTMLの設置先を設定し、rootオブジェクトを作成
 const root = ReactDOM.createRoot(
@@ -23,7 +24,8 @@ root.render(
     <Message />
     <Parent />
     <Page />
-    
+    <Counter initialValue={0} />
+
   </React.StrictMode>
 );
 
