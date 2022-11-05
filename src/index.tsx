@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import Hello from './components/Hello'
+import Message from './components/Message';
 import reportWebVitals from './reportWebVitals';
 
 // ReactDOM.createRootにHTMLの設置先を設定し、rootオブジェクトを作成
@@ -17,6 +18,7 @@ root.render(
     {/* <App />  */}
 
     <Hello />
+    <Message />
 
   </React.StrictMode>
 );
