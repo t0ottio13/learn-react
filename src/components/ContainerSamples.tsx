@@ -13,6 +13,7 @@ const Constainer = (props: {title: string; children: React.ReactElement}) => {
 const Parent = () => {
     return (
         <Constainer title="Hello">
+            {/*　以下のHTMLがpropsのchildrenとして渡される */}
             <p>この部分が背景色で囲まれる</p>
         </Constainer>
     )
