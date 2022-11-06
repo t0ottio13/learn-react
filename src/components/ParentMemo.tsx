@@ -30,7 +30,7 @@ const Buzz = memo<BuzzProps>((props) => {
     )
 });
 
-export const ParentFizzBuzz = () => {
+export const ParentMemo = () => {
     const [count, setCount] = useState(1);
     const isFizz = count % 3 === 0;
     const isBuzz = count % 5 === 0;
