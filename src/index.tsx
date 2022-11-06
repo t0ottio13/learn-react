@@ -10,7 +10,7 @@ import reportWebVitals from './reportWebVitals';
 import Counter from './components/Counter';
 import CounterReducer from './components/CounterReducer';
 import { ParentMemo } from './components/ParentMemo';
-import { ParentCallback } from './components/ParentCallback';
+import { Callback } from './components/Callback';
 
 // ReactDOM.createRootにHTMLの設置先を設定し、rootオブジェクトを作成
 const root = ReactDOM.createRoot(
@@ -31,7 +31,7 @@ root.render(
     {/* <Counter initialValue={0} /> */}
     {/* <CounterReducer initialValue={0} /> */}
     {/* <ParentMemo /> */}
-    <ParentCallback />
+    <Callback />
 
   </React.StrictMode>
 );
