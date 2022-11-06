@@ -12,6 +12,7 @@ import CounterReducer from './components/CounterReducer';
 import { ParentMemo } from './components/ParentMemo';
 import { Callback } from './components/Callback';
 import { UseMemoSample } from './components/UseMemoSample';
+import { Clock } from './components/Clock';
 
 // ReactDOM.createRootにHTMLの設置先を設定し、rootオブジェクトを作成
 const root = ReactDOM.createRoot(
@@ -34,7 +35,7 @@ root.render(
     {/* <ParentMemo /> */}
     <Callback />
     <UseMemoSample />
-
+    <Clock />
   </React.StrictMode>
 );
 
